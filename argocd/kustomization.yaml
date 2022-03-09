@@ -5,7 +5,7 @@ resources:
   - namespace-argocd.yaml
   - operatorgroup-argocd.yaml
   - subscription-argocd.yaml
-  - cluster-role-binding-argocd.yaml
+  #- cluster-role-binding-argocd.yaml
   - argocd-cluster.yaml
   - argocd-rbac-cm.yaml
   - project-infrastructure.yaml
