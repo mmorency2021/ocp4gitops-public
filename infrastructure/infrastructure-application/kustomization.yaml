@@ -5,8 +5,13 @@ commonLabels:
   app.kubernetes.io/part-of: infrastructure
 
 resources:
-#  - application-machinesets.yaml
-#  - ocs-application.yaml
+  - oauth-application.yaml
+  - application-machinesets.yaml
+  - clusteroperators.yaml
+  - ocs-storagecluster.yaml
+#  - ocs-application-helmchart.yaml 
+#  - odf-application.yaml
+#  - odf-application-helmchart.yaml
 #  - oadp-application.yaml
 #  - crunchy-postgres-application.yaml
 #  - lso-application.yaml
